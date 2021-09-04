@@ -1,0 +1,62 @@
+/* nav {
+  background: steelblue;
+}
+
+h2 {
+  color: blue;
+} */
+
+/* * {
+  text-decoration: underline;
+  color: red;
+} */
+
+h2 {
+  color: steelblue;
+}
+
+.alex {
+  border: 1px solid black;
+}
+
+#section {
+  bordeR: 1px solid black;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.😁 {
+  color: darkblue;
+}
+
+.😂 {
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+/* a[href] {
+  color: blueviolet;
+} */
+
+[href] {
+  text-decoration: none;
+}
+
+[href='https://alexcgdesign.com/inicio'] {
+  color: darkred;
+}
+
+[href^='hsttps:'] {
+  color: darkolivegreen;
+}
+
+[href$='.org'] {
+  background: steelblue;
+  color: white;
+}
+
+[href*="alexcgdesign"] {
+  background: darksalmon;
+}

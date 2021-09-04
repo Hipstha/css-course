@@ -1,0 +1,136 @@
+:root {
+    background-color: steelblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.enlace {
+    display: block;
+    background: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-bottom: 3px solid #ebd1db
+}
+
+.enlace:link {
+    background: burlywood;
+    color: black;
+}
+
+.enlace:visited {
+    background: crimson;
+}
+
+/* a.enlace:hover {
+    text-decoration: line-through;
+} */
+
+.enlace:hover {
+    text-decoration: underline;
+    padding: 40px 20px;
+    transition: 0.3s;
+}
+
+.enlace:active {
+    background-color: steelblue;
+    color: white;
+}
+
+.event {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.event:active {
+    padding: 23px;
+}
+
+#objetivo {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: steelblue;
+    transition: 0.3s;
+}
+
+#objetivo:target {
+    margin-left: 150px;
+} 
+
+.form {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    padding: 30px;
+}
+
+.form:focus-within {
+    background: rgba(220, 20, 60, 0.288);
+}
+
+.form__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+}
+
+input[type="text"], input[type="email"] {
+    width: 50%;
+    padding: 12px 5px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+}
+
+input:focus {
+    background: rgba(220, 20, 60, 0.356);
+}
+
+h2:focus {
+    background: crimson;
+    color: white;
+}
+
+input[type="checkbox"]:checked + label {
+    background-color: crimson;
+    color: white;
+}
+
+.title {
+
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3:not(.title):not(:hover) {
+    color: crimson;
+}
+
+h3:not(:hover) {
+    text-decoration: line-through;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container{
+    width: 80%;
+    height: 400px;
+    margin: 30px auto;
+    background: steelblue;
+    background-image: 
+        linear-gradient(crimson, blue);
+
+    background-image:
+        linear-gradient(crimson 30%, steelblue 90%);
+}
+ */
+
+.header {
+    height: 650px;
+
+    /* background-image: 
+        linear-gradient(#00000080, #00000080),
+        url('img/hero.jpg'); */
+
+    background-image: 
+        linear-gradient(to top, #d299c279 0%, #fef9d77e 100%),
+        url('img/hero.jpg');
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0.1px;
+}
+
+.title {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 270px;
+    color: white;
+    font-family: 'Arial';
+}

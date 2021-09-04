@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,300;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    background: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.copy {
+    /* text-align: justify; */
+    padding: 10px 0;
+    font-style: oblique;
+    /* letter-spacing: -1px; */
+    /* word-spacing: 0px; */
+    /* text-shadow: 1px 1px 1px black;; */
+    /* text-transform: capitalize; */
+    /* line-height: 30px; */
+    /* font-variant: small-caps; */
+}
+
+/* .bold {
+    color: crimson;
+    font-weight: bold;
+    font-size: 20px;
+} */
+
+a {
+    display: block;
+    text-align: left;
+    color: black;
+    /* text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: crimson; */
+    text-decoration: none;
+    border: 1px solid;
+    display: inline-block;
+    color: crimson;
+    padding: 10px 25px;
+}
+
+
+.img {
+    width: 250px;
+}
+
+.card {
+    background-image: linear-gradient(#2a2752bb, #2a2752bb),
+        url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background: #2a265f; */
+    width: 400px;
+    color: white;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+}
+
+.title {
+    font-size: 30px;
+    border-bottom: 3px solid white;
+    padding: 7px;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-weight: 300;
+    margin-bottom: 15px;
+    line-height: 2;
+    text-transform: capitalize;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.cta {
+    display: block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
