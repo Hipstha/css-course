@@ -4,20 +4,24 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-.container{
+.gallery {
+
+}
+
+.container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
 }
 
-.gallery__title{
+.gallery__title {
     margin-top: 50px;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 300px;
 }
 
-.gallery__title::after{
+.gallery__title::after {
     content: "";
     display: block;
     height: 4px;
@@ -26,15 +30,19 @@ body{
     margin-top: 20px;
 }
 
-.gallery__grid{
+.gallery__grid {
     padding: 50px 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat( auto-fit, minmax(280px, 1fr));
     gap: 10px;
     grid-auto-rows: 350px;
 }
 
-.gallery__img{
+.gallery__picture {
+    
+}
+
+.gallery__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
