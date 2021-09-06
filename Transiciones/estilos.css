@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container{
+    outline: 1px solid #000;
+    width: 90%;
+    height: 500px;
+    margin: 30px auto;
+}
+
+.element{
+    background: crimson;
+    width: 120px;
+    height: 120px;
+    color: #fff;
+    font-family: Arial;
+    position: relative;
+    left: 0;
+    text-align: left;
+    position: relative;
+    text-align: left;
+    transition-property: background-color, transform;
+    transition-duration: 1s, 2s;
+    transition-timing-function: ease-out;
+}
+
+.container:hover .element {
+    /* left: 80px; */
+    /* background: steelblue; */
+    /* text-align: right; */
+    background-color: steelblue;
+    transform: scale(0.5);
+}
